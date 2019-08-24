@@ -14,7 +14,7 @@ pipeline {
     stages {
 
 		stage("Test - Unit tests") {
-			steps { runUnittests() }
+			steps { echo 'testing' }
 		}
 
         stage("Build") {
